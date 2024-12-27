@@ -17,7 +17,7 @@ body, html {
     scroll-behavior: smooth;
 
     background-color: rgba(237, 237, 237, 1);
-    background-image: url('img/bg.png');
+    background-image: url('../img/bg.png');
 
     display: grid;
     justify-content: center;
