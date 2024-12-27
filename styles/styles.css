@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -595,5 +597,3 @@ button {
     align-items: center;
     gap: 32px;
 }
-
-@import url("fonts.css");
