@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="img\webIcon.ico" type="image/x-icon">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <link rel="stylesheet" href="styles\styles.css">
+        <title>Креативная студия Н. Полякова</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <button type="button" style="grid-area: 'button1';"><a href="#about-me" class="nav-menu-button">обо мне</a></button>
+            <button type="button" class="nav-menu-button" style="grid-area: 'button2';"><a href="#services" class="nav-menu-button">услуги</a></button>
+            <button type="button">
+                <img src="/img/logo.svg" class="logo">
+            </button>
+            <button type="button" style="grid-area: 'button3';"><a href="https://otzovik.com/" class="nav-menu-button" target="_blank">отзывы</a></button>
+            <button type="button" style="grid-area: 'button4';"><a href="#portfolio" class="nav-menu-button">портфолио</a></button>
+        </div>
+
+        <div class="slogan-block">
+            <p id="slogan">Здесь <br/>создаются <span id="marker-rectangle">бренды</span></p>
+        </div>
+        <p id="tagline">Ваш дизайн - Ваш проводник <br/>на пути к успеху</p>
+
+        <div id="about-me">
+            <div id="name-rectangle">
+                <p style="position: relative; top: 6px;">Поляков Никита</p>
+                <p style="font-size: 16px; font-weight: 400; line-height: 16px; position: relative; bottom: 2px">графический дизайнер</p>
+            </div>
+
+            <div id="photo-ellipse">
+                <img src="/img/photo.png">
+            </div>
+
+            <div id="info-rectangle" style="position: absolute; transform: translate(-115%, -100%)">
+                <p style="position: relative; top: 12px">от 35$</p>
+                <p style="font-size: 16px; font-weight: 400; line-height: 16px; position: relative; bottom: 8px">за страницу</p>
+            </div>
+            <div id="info-rectangle" style="position: absolute; transform: translate(-105%, 70%)">
+                <p style="position: relative; top: 12px">4 года</p>
+                <p style="font-size: 16px; font-weight: 400; line-height: 16px; position: relative; bottom: 8px">в сфере дизайна</p>
+            </div>
+            <div id="info-rectangle" style="position: absolute; transform: translate(115%, -40%)">
+                <p style="position: relative; top: 12px">уже 45</p>
+                <p style="font-size: 16px; font-weight: 400; line-height: 16px; position: relative; bottom: 8px">успешных проектов</p>
+            </div>
+            <div id="info-rectangle" style="position: absolute; transform: translate(90%, 150%)">
+                <p style="position: relative; top: 12px">более 200</p>
+                <p style="font-size: 16px; font-weight: 400; line-height: 16px; position: relative; bottom: 8px">довольных клиентов</p>
+            </div>
+
+            <div id="social-media" style="transform: translate(0%, 925%);">
+                <button type="button"><a href="https://web.telegram.org/a/" target="_blank"><img src="/img/telegramLogo.svg"></a></button>
+                <button type="button"><a href="https://www.behance.net/" target="_blank"><img src="/img/behanceLogo.svg"></a></button>
+                <button type="button"><a href="https://www.whatsapp.com/" target="_blank"><img src="/img/whatsappLogo.svg"></a></button>
+            </div>
+
+            <img src="/img/brush.svg" id="brush">
+        </div>
+
+        <button type="button" id="reviews-button"><a href="https://otzovik.com/" target="_blank">отзывы</a></button>
+        <div id="servicesBlock">
+            <p style="margin-bottom: 64px; text-align: center; font-family: 'Montserrat'; font-size: 32px; list-style-type: 32px; font-weight: 400; color: #5B5B5B;">Мои услуги</p>
+
+        <div id="services">
+            <div id="service">
+                <img src="/img/header1.png" id="service-header">
+                <p>от 70$</p>
+                <button type="button"><a href="https://web.telegram.org" target="_blank" id="service-button">заказать</a></button>
+            </div>
+            <div id="service">
+                <img src="/img/header2.png" id="service-header">
+                <p>от 35$</p>
+                <button type="button"><a href="https://web.telegram.org" target="_blank" id="service-button">заказать</a></button>
+            </div>
+            <div id="service">
+                <img src="/img/header3.png" id="service-header">
+                <p>от 10$</p>
+                <button type="button"><a href="https://web.telegram.org" target="_blank" id="service-button">заказать</a></button>
+            </div>
+        </div>
+
+        <p style="margin-bottom: 64px; text-align: center; font-family: 'Montserrat'; font-size: 32px; list-style-type: 32px; font-weight: 400; color: #5B5B5B;">Портфолио</p>
+
+        <div id="portfolio">
+            <div id="portfolio-one">
+                <button type="button" style="position: absolute; margin: 20px; text-align: text;"><a href="https://webinar.unisender.com/free-open-lesson/?ref=https://referest.ru/sites/vse" target="_blank" id="portfolio-button">к сайту</a></button>
+                <img src="img/image1.png">
+            </div>
+            <div id="portfolio-two">
+                <div id="portfolio-two-first">
+                    <img src="/img/image2.png">
+                    <button type="button" style="position: absolute; margin: 20px; text-align: text;"><a href="https://webinars.tilda.cc/open-talks/" id="portfolio-button" target="_blank">к сайту</a></button>
+                </div>
+                <div id="portfolio-two-second">
+                    <button type="button" style="position: absolute; margin: 20px; text-align: text;"><a href="https://smol-school.ru/" target="_blank" id="portfolio-button">к сайту</a></button>
+                    <img src="/img/image3.png">
+                </div>
+            </div>
+        </div>
+
+        <a href="https://www.behance.net/" target="_blank" class="more-works-button">Больше работ на Behance</a>
+
+        <div class="footer">
+            <button type="button"><a href="https://web.telegram.org/" target="_blank"><img src="/img/telegramLogo-w.svg"></a></button>
+            <button type="button"><a href="https://www.behance.net/" target="_blank"><img src="/img/behanceLogo-w.svg" style="border-radius: 100px;"></a></button>
+            <button type="button"><a href="https://www.whatsapp.com/" target="_blank"><img src="/img/whatsappLogo-w.svg"></a></button>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
